@@ -1,0 +1,22 @@
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/0264550dda.js" crossorigin="anonymous"></script>
+</head>
+<div>
+    {{#each app}}
+        <div class="grid-container4">
+            <div class="div1">
+                <img src="{{this.img}}" width="100px">
+            </div>   
+            <div class="div2">
+                <p>{{this.name}}</p>
+            </div>
+            <div class="div3">
+                <p>{{this.link}}</p>
+            </div>
+            <div class="div4">
+                <p>Read More</p>
+            </div>
+            </div>
+    {{/each}}
+</div>

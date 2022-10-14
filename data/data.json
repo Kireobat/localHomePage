@@ -1,0 +1,55 @@
+{
+    "title": "HomePage",
+    "app": [
+        {
+            "name": "Plex",
+            "link": 10.00,
+            "img": "/img/plex.png"
+        },
+        {
+            "name": "TrueNAS",
+            "link": 10.00,
+            "img": "/img/truenas.png"
+        },
+        {
+            "name": "Google",
+            "link": 10.00,
+            "img": "/img/google.png"
+        },
+        {
+            "name": "Asus Router",
+            "link": 10.00,
+            "img": "/img/asus.png"
+        },
+        {
+            "name": "BetterSchool",
+            "link": 10.00,
+            "img": "/img/betterschool.png"
+        },
+        {
+            "name": "Proxmox",
+            "link": 10.00,
+            "img": "/img/proxmox.png"
+        },
+        {
+            "name": "Pterodactyl",
+            "link": 10.00,
+            "img": "/img/pterodactyl.png"
+        },
+        {
+            "name": "Youtube",
+            "link": 10.00,
+            "img": "/img/youtube.png"
+        },
+        {
+            "name": "Gmail",
+            "link": 10.00,
+            "img": "/img/gmail.png"
+        },
+        {
+            "name": "Proton Mail",
+            "link": 10.00,
+            "img": "/img/protonmail.png"
+        }
+    ]
+}

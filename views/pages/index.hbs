@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/0264550dda.js" crossorigin="anonymous"></script>
+    <script>
+        function openNav() 
+            {
+            document.getElementById("mySidebar").style.width = "90px";
+            }
+        function closeNav() 
+            {
+            document.getElementById("mySidebar").style.width = "0";
+            }
+    </script>
+    <title>Home | {{title}}</title>
+</head>
+<body>
+    <div>
+        <h1>{{>sidebar}}</h1>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()"><i class="fa-sharp fa-solid fa-bars"></i></button>
+    </div>
+    <div class="grid-container2">
+        <div class="grid-item">
+           <img src="/img/bolle.jpg" height="200px">
+        </div>
+        <div class="grid-item">
+            <img src="/img/cake.jpg" height="200px">
+        </div>
+        <div class="grid-item">
+            <img src="/img/croissant.jpg" height="200px">
+        </div>
+        <div class="grid-item">
+            <img src="/img/muffins.jpg" height="200px">
+        </div>
+    </div>
+    <div>
+        <h1>{{>footer}}</h1>
+    </div>
+</body>
+</html>
