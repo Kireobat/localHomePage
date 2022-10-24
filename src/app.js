@@ -39,7 +39,7 @@ function rootRoute(req, res) {
     res.render('index.hbs', {
         title: data.title,
         desc: "Home",
-        
+        background: partialsPath.background
     });
 }
 
@@ -47,7 +47,8 @@ function dessertRoute(req, res) {
     res.render('link.hbs',{
         title: data.title,
         desc: "Shortcuts",
-        desserts: data.desserts
+        desserts: data.desserts,
+        background: partialsPath.background
     });
 }
 
